@@ -15,9 +15,21 @@
     />
     <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="./Netflix_CSSstyle.css">
+    <script>
+        function changemode(){
+            let mybody = document.body;
+            mybody.classList.toggle('mydark')         
+        }
+    </script>
 </head>
 <body>
+    
     <header class="heading1">
+
+        <div style="position: absolute; z-index: 100; float: left; margin-left: 75%; margin-top: 2.2%;">
+            <button onClick="changemode()"><img src="./images/sun.png" title="sun" style="width:30px; height: 30px;"></button>
+        </div>
+
         <div class="showcase-top">
             <img src="./Netflix-logo-red-black.png" alt="Netflix image" style=" width: 200px; height: 120px; position: absolute; left: 3%; transform: translate(-45,-45);">
             

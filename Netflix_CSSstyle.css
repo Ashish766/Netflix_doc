@@ -412,10 +412,10 @@ feature2_2_gif{
 
 /*-------footer-------*/
 footer{
-    border: 5px solid #000;
-    height: 450px;
-    margin-left: 10%;
+    display: inline-block;
+    width: 80%;
     margin-top: 1%;
+    margin-left: 14%;
 }
 
 .footer_row1{
@@ -478,3 +478,7 @@ footer{
     margin-left: 12%;
     margin-bottom: 5%;
 }
+
+.mydark{
+    background-color: #ffcbcf;
+ }
