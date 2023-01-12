@@ -26,8 +26,24 @@ hr{
 }
 
 
-
 /*------header------*/
+
+.geolocation{
+    float: right;
+    margin-top: 7%;
+    margin-right: 4%;
+}
+
+.geolocation >button{
+    color: #fff;
+    background-color: #ff0000;
+    padding: 2%;
+    width: 100px; 
+}
+
+.geolocation >p{
+    color: #fff;
+}
 
 .showcase-top{
     height: 90px;
